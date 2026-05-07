@@ -1,20 +1,20 @@
-import "./globals.css";
+import "./styles/globals.css";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "SIEJA",
-  description: "Transforming Ideas Into Reality"
+  description: "Transforming Ideas Into Reality",
 };
 
 export default function RootLayout({
-  children
+  children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className="bg-black text-white overflow-x-hidden">
-        {children}
-      </body>
+      <body className="overflow-x-hidden">{children}</body>
     </html>
   );
 }
+<body className="overflow-x-hidden"></body>

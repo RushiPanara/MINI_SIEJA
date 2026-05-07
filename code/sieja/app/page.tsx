@@ -1,16 +1,24 @@
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Workflow from "@/components/Workflow";
-import Showcase from "@/components/Showcase";
-import Footer from "@/components/Footer";
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Vision from "./sections/Vision";
+import Workflow from "./sections/Workflow";
+import Innovation from "./sections/Innovation";
+import Future from "./sections/Future";
+import Contact from "./sections/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white">
+    <main className="bg-black text-white overflow-hidden">
+      <Navbar />
       <Hero />
       <About />
+      <Vision />
       <Workflow />
-      <Showcase />
+      <Innovation />
+      <Future />
+      <Contact />
       <Footer />
     </main>
   );
