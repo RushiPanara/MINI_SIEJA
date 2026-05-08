@@ -20,7 +20,7 @@ export default function Navbar() {
             className="rounded-full glow object-contain"
           />
           <Image
-            src="/Images/Name_Img.png"
+            src="/images/Name_Img.png"
             alt="logo"
             width={80}
             height={40}
