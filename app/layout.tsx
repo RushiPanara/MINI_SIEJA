@@ -17,4 +17,4 @@ export default function RootLayout({
     </html>
   );
 }
-<body className="overflow-x-hidden"></body>
+
