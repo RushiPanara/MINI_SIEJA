@@ -12,6 +12,7 @@ export default function About() {
           initial={{ opacity: 0, x: -80 }}
           whileInView={{ opacity: 1, x: 0 }}
           src="/images/idea_spaceship.jpeg"
+          alt="Idea spaceship"
           className="rounded-3xl glow"
         />
 

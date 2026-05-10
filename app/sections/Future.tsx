@@ -11,6 +11,7 @@ export default function Future() {
           initial={{ opacity: 0, x: -80 }}
           whileInView={{ opacity: 1, x: 0 }}
           src="/images/future.jpeg"
+          alt="Future"
           className="rounded-3xl glow"
         />
 
@@ -19,7 +20,7 @@ export default function Future() {
           whileInView={{ opacity: 1, x: 0 }}
         >
           <h2 className="text-cyan-400 uppercase tracking-[0.4em] mb-4">
-            FUture OF SIEJA
+            FUTURE OF SIEJA
           </h2>
 
 

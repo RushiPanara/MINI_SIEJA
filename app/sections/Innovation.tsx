@@ -1,11 +1,10 @@
+import Image from "next/image";
+
 export default function Innovation() {
   return (
     <section className="py-32 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-        <img
-          src="/images/idea_watch.jpeg"
-          className="rounded-3xl glow"
-        />
+        <Image src="/images/idea_watch.jpeg" alt="Smart watch" className="rounded-3xl glow" width={600} height={400} />
 
         <div>
           <p className="text-cyan-400 uppercase tracking-[0.4em] mb-4">
